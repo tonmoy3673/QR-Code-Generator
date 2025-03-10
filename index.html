@@ -16,17 +16,17 @@
     <main class="main-container">
         <header>
             <!-- ====== Title ======== -->
-            <h1>QR Code Generator</h1>
+            <h1 class="title">QR Code Generator</h1>
         </header>
         <!-- ========== Input Part ======= -->
          <section class="input-container">
             <!-- ====== input field ======== -->
-             <input placeholder="Please Type Here.." type="text">
+             <input id="field" placeholder="Please Type Here.." type="text">
              <!-- ======== QR Code Image ====== -->
               <img id="QR-img">
             <!-- ====== Button ======= -->
              <div class="QR-BTN">
-                <button id="BTN">Generate QR Code</button>
+                <button onclick="getInputValue()" id="BTN">Generate QR Code</button>
              </div>
          </section>
     </main>

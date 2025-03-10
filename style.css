@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #250057;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    color:#ebfffc ;
+    font-size: 2.5rem;
+    padding: 10px 0;
+    font-family: "Raleway", sans-serif;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#field{
+    margin-top: 10px;
+    padding: 12px 15px;
+    border-radius: 15px;
+    border: 0;
+    outline: 0;
+    font-size: 1.1rem;
+}
+#field::placeholder{
+    font-size: 1rem;
+    font-style: italic;
+}
+#BTN{
+    padding: 10px 12px;
+    border-radius: 15px;
+    border: 0;
+    outline: 0;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #ebfffc;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#BTN:hover{
+    background-color: #019f55;
+}
+#QR-img{
+    width: 150px;
+    height: 100%;
+    margin: 15px auto;
+    transition: all 0.5s;  
+}
